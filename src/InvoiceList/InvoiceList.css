@@ -1,0 +1,446 @@
+.invoicelist {
+  background-color: #ffffff;
+  font-family: "Cabin", sans-serif;
+  border-radius: 12px;
+}
+.invoice-header {
+  height: 60px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 28px;
+  gap: 34px;
+}
+.header-templates {
+  font-size: 14px;
+  line-height: 32px;
+  font-weight: 400;
+  color: #4c4d4f;
+  padding-top: 16.7px;
+}
+.header-createinvoice {
+  font-size: 14px;
+  line-height: 48px;
+  font-weight: 400;
+  color: #000000;
+  padding-top: 16.7px;
+  border-bottom: 2px solid #000000;
+}
+.line {
+  height: 0;
+  border: 0.5px solid #4c4d4f33;
+  width: 100%;
+}
+.invoicelist-body {
+  padding: 14px;
+}
+.invoice-form {
+  padding-top: 14.5px;
+  display: flex;
+  gap: 15px;
+}
+.form-area label {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #00000080;
+  display: flex;
+  margin-bottom: 4px;
+}
+.form-input {
+  height: 19px;
+  width: 315px;
+  padding: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 0.5px solid #4c4d4f;
+  border-radius: 7px;
+}
+.form-input p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #00000080;
+}
+
+.treatment-amount {
+  background: #f8f8f8;
+  border: 1px solid #4c4d4f33;
+  border-radius: 14px;
+  margin-top: 24px;
+  padding: 16px 26px 13px 24px;
+}
+.treatment-amount-head {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 10px;
+}
+.head-treatment {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #00000080;
+  width: 221px;
+  display: flex;
+}
+.head-amount {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #00000080;
+}
+
+.treatment-body {
+  display: flex;
+  justify-content: space-between;
+}
+.body-table {
+  display: flex;
+  margin-top: 16px;
+}
+.body-table p {
+  font-size: 16px;
+  line-height: 21px;
+  font-weight: 600;
+  color: #000000;
+  width: 221px;
+  display: flex;
+}
+.body-table span {
+  font-size: 16px;
+  line-height: 21px;
+  font-weight: 600;
+  color: #000000;
+}
+.body-button {
+  display: flex;
+  gap: 5px;
+  margin-top: 13px;
+}
+.add {
+  height: 38px;
+  width: 154px;
+  align-items: center;
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 12px;
+  line-height: 21px;
+  font-weight: 400;
+  border-radius: 12px;
+}
+.remove {
+  height: 38px;
+  width: 154px;
+  align-items: center;
+  background-color: #ffffff;
+  color: #e11d48;
+  font-size: 12px;
+  line-height: 21px;
+  font-weight: 400;
+  border-radius: 12px;
+  border: 0.5px solid #e11d48;
+}
+.treatment-table {
+  background: #f8f8f8;
+  border: 1px solid #4c4d4f33;
+  border-radius: 14px;
+  margin-top: 6px;
+  padding: 16px 26px 13px 24px;
+}
+.treatment-table-head {
+  display: flex;
+  margin-bottom: 9px;
+}
+.table-head-treatments {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #00000080;
+  width: 196px;
+  display: flex;
+}
+.table-head-rate {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #00000080;
+  width: 151px;
+  display: flex;
+}
+.table-head-section {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #00000080;
+  width: 148px;
+  display: flex;
+}
+.table-head-total {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #00000080;
+  width: 167px;
+  display: flex;
+}
+.treatment-table-body {
+  display: flex;
+  margin-bottom: 20px;
+  margin-top: 7px;
+}
+.table-body-treatments {
+  padding: 9px 0px 10px 9px;
+  border: 0.5px solid #4c4d4f33;
+  border-radius: 12px;
+  background-color: #ffffff;
+  width: 161px;
+  display: flex;
+  margin-right: 21px;
+}
+.table-body-treatments p {
+  font-size: 16px;
+  line-height: 21px;
+  font-weight: 600;
+  color: #000000;
+}
+
+.table-body-rate {
+  padding: 9px 0px 10px 9px;
+  border: 0.5px solid #4c4d4f33;
+  border-radius: 12px;
+  background-color: #ffffff;
+  width: 110px;
+  display: flex;
+  margin-right: 31px;
+}
+.table-body-rate p {
+  font-size: 16px;
+  line-height: 21px;
+  font-weight: 600;
+  color: #000000;
+}
+
+.table-body-section {
+  padding: 9px 0px 10px 9px;
+  border: 0.5px solid #4c4d4f33;
+  border-radius: 12px;
+  background-color: #ffffff;
+  width: 52px;
+  display: flex;
+  margin-right: 76px;
+}
+.table-body-section p {
+  font-size: 16px;
+  line-height: 21px;
+  font-weight: 600;
+  color: #000000;
+}
+.table-body-total {
+  padding: 9px 0px 10px 9px;
+  border: 0.5px solid #4c4d4f33;
+  border-radius: 12px;
+  background-color: #ffffff;
+  width: 109px;
+  display: flex;
+  margin-right: 76px;
+}
+.table-body-total p {
+  font-size: 16px;
+  line-height: 21px;
+  font-weight: 600;
+  color: #000000;
+}
+
+.treatment-table-button {
+  display: flex;
+  justify-content: flex-end;
+  gap: 5px;
+}
+
+.skincareitem {
+  padding: 19px 20px 13px 12px;
+  background-color: #f8f8f8;
+  margin-top: 16px;
+  border: 1px solid #4c4d4f33;
+  border-radius: 14px;
+}
+.skincare-table-head {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 13px;
+}
+.table-head-skincare p {
+  margin-left: 9px;
+  font-size: 14px;
+  line-height: 20px;
+  color: #00000080;
+}
+.table-head-skincare {
+  width: 308px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-start;
+}
+.table-head-skincarerate p {
+  margin-left: 9px;
+  font-size: 14px;
+  line-height: 20px;
+  color: #00000080;
+}
+.table-head-skincarerate {
+  width: 120px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-start;
+}
+.table-head-qty p {
+  margin-left: 9px;
+  font-size: 14px;
+  line-height: 20px;
+  color: #00000080;
+}
+.table-head-qty {
+  width: 84px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-start;
+}
+.table-head-amount p {
+  margin-left: 9px;
+  font-size: 14px;
+  line-height: 20px;
+  color: #00000080;
+}
+.table-head-amount {
+  width: 120px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-start;
+}
+.delete-icons span {
+  height: 15px;
+  display: flex;
+}
+.table-input {
+  width: 100%;
+  border: 0.5px solid #4c4d4f33;
+  border-radius: 8px;
+  background-color: #ffffff;
+}
+.table-input span {
+  margin: 10px 0 10px 12px;
+  display: flex;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+}
+.table-delete-icons {
+  margin-top: 20px;
+  margin-bottom: 9px;
+}
+
+
+.footer{
+    display: flex;
+    margin-top: 13px;
+    justify-content: space-between;
+}
+.footer-notes p{
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #00000080;
+    display: flex;
+}
+.footer-notes-input{
+    margin-top: 4px;
+    height: 48px;
+    width: 340px;
+    border-radius: 7px;
+    border: 0.5px solid #4C4D4F;
+}
+.footer-notes-input img{
+    margin: 14px 0 14px 17px;
+    display: flex;
+}
+.table-cross{
+  display: none;
+}
+.footer-subtotal{
+  display: flex;
+  gap: 115px;
+  margin-top: 24px;
+  justify-content: flex-end;
+}
+.footer-subtotal p{
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 500;
+
+}
+.transaction-fees{
+  display: flex;
+  gap: 12px;
+  margin-top: 4px;
+  align-items: center;
+  justify-content: flex-end;
+}
+.transaction-fees p{
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #4C4D4F;
+  margin-top: 9px;
+}
+.fees-input{
+  height:37px;
+  width: 146px;
+  border-radius: 7px;
+  border: 0.5px solid #4C4D4F;
+  padding-right: 13px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  background-color: #f8f8f8;
+}
+.footer-total{
+  display: flex;
+  gap: 107px;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+.footer-total p{
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  color: #000000;
+}
+
+
+@media screen and (max-width: 835px) {
+  .invoicelist {
+    background-color: #fff9f1;
+  }
+  .form-input{
+    background-color: #f8f8f8;
+  }
+  .footer-notes-input{
+    background-color: #f8f8f8;
+  }
+  .table-delete{
+    display: none;
+  }
+  .table-cross{
+    display: block;
+    padding-top: 10px;
+  }
+}
